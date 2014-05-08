@@ -13,6 +13,10 @@ unset GIT_DIR
 BUILD_DIR=$1
 CACHE_DIR=$2
 
+
+echo "HOLAAAAAAAAAAAAAAAAAAAA1 $BUILD_DIR"
+echo "HOLAAAAAAAAAAAAAAAAAAAA2 $CACHE_DIR"
+
 function indent {
   c='s/^/       /'
   case $(uname) in
